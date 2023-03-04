@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8artha-contact</title>
+
+    <meta name="description" content="">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Remix Icon CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Eighth navbar example">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">8artha</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarsExample07">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="design-dash.html">Designs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog-dash.html">Blogs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="journey.html">Journey</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="contact">
+            <div class="sec-head">
+                <h3 class="">Have Project or Book of "VISHANTI"</h3>
+            </div>
+
+            <div class="row">
+                <form id="contactForm" data-bs-form-api-token="API_TOKEN">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Your Name</label>
+                        <input class="form-control" id="name" type="text" placeholder="Eg. Aanand"
+                            data-bs-validations="required" />
+                        <div class="invalid-feedback" data-bs-feedback="name:required">Name is required.</div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="emailAddress">Email Address</label>
+                        <input class="form-control" id="emailAddress" type="email" placeholder="aanand@yourweb.com"
+                            data-bs-validations="required, email" />
+                        <div class="invalid-feedback" data-bs-feedback="emailAddress:required">Email Address is
+                            required.</div>
+                        <div class="invalid-feedback" data-bs-feedback="emailAddress:email">Email Address Email is not
+                            valid.</div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea class="form-control" id="message" type="text"
+                            placeholder="Suggestion, Project Idea, Party, or Whatever." style="height: 5rem;"
+                            data-bs-validations="required"></textarea>
+                        <div class="invalid-feedback" data-bs-feedback="message:required">Message is required.</div>
+                    </div>
+
+                    <!-- Form submissions success message -->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center mb-3">Form submission successful!</div>
+                    </div>
+
+                    <!-- Form submissions error message -->
+                    <div class="d-none" id="submitErrorMessage">
+                        <div class="text-center text-danger mb-3">Error sending message!</div>
+                    </div>
+
+                    <!-- Form submit button -->
+                    <div class="d-flex justify-content-end">
+                        <button class="btn-pri" id="submitButton" type="submit">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </section>
+
+
+
+        <section class="connect">
+            <div class="sec-head">
+                <h3 class="">Reach Me Out</h3>
+                <!-- <h3><a href="blogs.html">View All</a></h3> -->
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <a target="_blank" href="https://goo.gl/maps/97kZJQ3rW5Y4fKMcA">
+                        <i class="ri-map-pin-line"></i>
+                        <h5>
+                            Yewalewadi, Pune, MH 4101048
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="tel:+919309532086">
+                        <i class="ri-phone-line"></i>
+                        <h5>+919309532086</h5>
+                    </a>
+
+                </div>
+                <div class="col-md-4">
+                    <a href="mailto: sidh8bansode@yahoo.com">
+                        <i class="ri-mail-unread-line"></i>
+                        <h5>sidh8bansode@yahoo.com</h5>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="social">
+            <div class="sec-head">
+                <h3 class="">Else Be a Friend</h3>
+            </div>
+
+            <div class="row social-box">
+                <div class="col-4 col-lg-2">
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="ri-behance-line"></i></a>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="ri-medium-line"></i></a>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="ri-dribbble-line"></i></a>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="ri-pinterest-line"></i></a>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="ri-linkedin-line"></i></a>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="ri-instagram-line"></i></a>
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container ">
+            <h4 class="opacity-25">© 2022-2025 <span>sidh8artha</span></h4>
+            <h5>Designed & Developed by sidh8artha</h5>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
