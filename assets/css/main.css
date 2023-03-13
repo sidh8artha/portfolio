@@ -153,21 +153,6 @@ body .r-icon {
   align-items: center;
 }
 
-section {
-  padding: 2rem 0 3rem 0;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-section .sec-head {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-}
-section .sec-head h3 {
-  font-weight: 100;
-  color: white;
-}
-
 .btn-pri {
   -webkit-appearance: none;
      -moz-appearance: none;
