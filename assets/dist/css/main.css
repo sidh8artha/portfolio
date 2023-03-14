@@ -112,6 +112,9 @@ nav .navbar-brand {
   color: var(--bs-gray-200);
   font-weight: 700;
 }
+nav .navbar-brand:hover {
+  color: var(--bs-primary);
+}
 nav .bar {
   display: flex;
   align-items: center;
@@ -455,9 +458,49 @@ form .form-group .form-control:focus {
   opacity: 1;
 }
 
+.calltoaction {
+  margin-top: 80px;
+  height: 75vh;
+  display: flex;
+  align-items: flex-end;
+}
+.calltoaction .dash-row {
+  display: flex;
+  flex-direction: row;
+  height: -moz-fit-content;
+  height: fit-content;
+  gap: 10rem;
+}
+.calltoaction .dash {
+  width: 100%;
+}
+.calltoaction .dash h1, .calltoaction .dash h2 {
+  font-size: 10rem;
+  font-weight: 900;
+  letter-spacing: 0.15rem;
+  margin-bottom: 0rem;
+}
+.calltoaction .dash h3 {
+  margin-bottom: 0;
+  font-weight: 200;
+  color: var(--bs-primary);
+  margin-bottom: 2rem;
+}
+
 @media (max-width: 360px) {
   .hero .intro h1 {
     font-size: 3.5rem;
+  }
+  .calltoaction .dash-row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .calltoaction .dash-row .dash h1, .calltoaction .dash-row .dash h2 {
+    font-size: 3.5rem;
+  }
+  .calltoaction .dash-row .dash h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
   }
   section {
     padding: 2rem 0.5rem;
@@ -492,6 +535,17 @@ form .form-group .form-control:focus {
   .hero .intro h1 {
     font-size: 6rem;
   }
+  .calltoaction .dash-row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .calltoaction .dash-row .dash h1, .calltoaction .dash-row .dash h2 {
+    font-size: 6rem;
+  }
+  .calltoaction .dash-row .dash h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
   section {
     padding: 2rem 0.5rem;
   }
@@ -525,6 +579,17 @@ form .form-group .form-control:focus {
   .hero .intro h1 {
     font-size: 8rem;
   }
+  .calltoaction .dash-row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .calltoaction .dash-row .dash h1, .calltoaction .dash-row .dash h2 {
+    font-size: 8rem;
+  }
+  .calltoaction .dash-row .dash h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
   section {
     padding: 2rem 0.5rem;
   }
@@ -556,7 +621,18 @@ form .form-group .form-control:focus {
 }
 @media (min-width: 769px) and (max-width: 991px) {
   .hero .intro h1 {
-    font-size: 12rem;
+    font-size: 8rem;
+  }
+  .calltoaction .dash-row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .calltoaction .dash-row .dash h1, .calltoaction .dash-row .dash h2 {
+    font-size: 8rem;
+  }
+  .calltoaction .dash-row .dash h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
   section {
     padding: 2rem 0.5rem;
@@ -585,5 +661,18 @@ form .form-group .form-control:focus {
   }
   footer h4, footer h5 {
     font-size: small;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .calltoaction .dash-row {
+    flex-direction: row;
+    gap: 5rem;
+  }
+  .calltoaction .dash-row .dash h1, .calltoaction .dash-row .dash h2 {
+    font-size: 5rem;
+  }
+  .calltoaction .dash-row .dash h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 }/*# sourceMappingURL=main.css.map */
